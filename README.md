@@ -4,7 +4,7 @@
 This project is an analysis on the tweet archive of Twitter user [@dog_rates](https://twitter.com/dog_rates), also known as
 [WeRateDogs](https://en.wikipedia.org/wiki/WeRateDogs). These tweets have ratings of people's dogs with a humorous comment about the dog. The ratings are mostly displayed as a fraction with a denominator of 10 or multiples of 10 and the numeration greater than the numerator, for instance 13/10.
 
-The wrangling process is documented in a separate file named "wrangle_report.md". 
+The wrangling process is documented in a separate file named [wrangle_report.md](https://github.com/Uniqcoda/dog-rates/blob/main/wrangle_report.md). 
 
 Below are the insights gotten from the analysis.
 
