@@ -9,7 +9,7 @@ The data was gathered from 3 different sources:
 2. A file “image-predictions.tsv” downloaded using the requests library
 3. Data gotten from Twitter API (with tweet id from the twitter-archive-enhanced.csv file) using Tweepy library.
 
-Below is a report of the issues found in the data and how they were fixed.
+Below is a report of the issues found in the data and how they were fixed. To further understand how these steps were taken. See the notebook named [wrangle_act.ipynb](https://github.com/Uniqcoda/dog-rates/blob/main/wrangle_act.ipynb)
 
 
 ## Tidiness issues
@@ -56,5 +56,3 @@ Below is a report of the issues found in the data and how they were fixed.
 8. Some of the tweets are not for dogs (from the predictions)
 
 * First, all the tweets that were false for all 3 predictions were  dropped. Then, for the remaining tweets, we picked the prediction that is both true and of the highest confidence (if there are other true predictions).
-
-To further understand how these steps were taken. See the notebook named "wrangle_act.ipynb"
